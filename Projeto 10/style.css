@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+header{
+    margin-bottom: 7.3rem;
+}
+
+body {
+    background: #1E1E1E;
+    font-family: 'Mulish', sans-serif;
+    padding: 7.3rem 10rem;
+    display: grid;
+    justify-content: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 4.8rem 6.0rem;
+
+}
+
+#titulo {
+    color: #02799D;
+    font-size: 5.8rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+}
+
+#subtitulo{
+    color: #E1E1E6;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.card h1 {
+    color: #E1E1E6;
+    font-weight: 900;
+    font-size: 36px;
+    padding: 24px 31px 0;
+}
+
+.card p {
+    color: #C4C4CC;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 24px 32px 32px;
+}
+
+.card {
+    background: #202024;
+    border: 2px solid #323238;
+    border-radius: 8px;
+    overflow: hidden;
+}
